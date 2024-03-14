@@ -1,7 +1,7 @@
 # Finance-related-projects
 
 ## Plots with different scales
-''' 
+```
 import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -56,6 +56,5 @@ ax1.axvline(x=pd.Timestamp('2024-02-15'), color='red', linestyle='--')  # Vertic
 fig.tight_layout()  # otherwise, the right y-label is slightly clipped
 plt.title('Stock Price of NVDA and VIX Index')
 plt.show()
-
-'''
+```
 
