@@ -57,4 +57,4 @@ fig.tight_layout()  # otherwise, the right y-label is slightly clipped
 plt.title('Stock Price of NVDA and VIX Index')
 plt.show()
 ```
-
+VIX_and_NVDA.png
